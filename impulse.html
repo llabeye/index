@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<center>
+<title>New York's hottest club is...</title>
+<img src=image/SNL.jpg>
+<br>
+<script type="text/javascript">
+    var urls = [
+        "Clubs/Crease.html",
+        'Clubs/Wesh.html',
+        'Clubs/Kevin.html',
+        'Clubs/Uhhhh.html',
+        'Clubs/DOUCHE.html',
+        'Clubs/SPICY.html',
+        'Clubs/Selfieee.html',
+        'Clubs/Twice.html'
+    ];
+
+    function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+</script>
+<a href="#" onClick="goSomewhere(); return false;">Yes, yes yes yes yes yes. New York's hottest club is...</a>
+</center>
+</html>
